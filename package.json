@@ -1,6 +1,6 @@
 {
     "name": "@aibulat/funtest",
-    "version": "0.0.11",
+    "version": "0.0.12",
     "description": "Using supertest to make tests for some publicly available REST APIs",
     "main": "dist/index.js",
     "type": "module",
