@@ -4,9 +4,9 @@
     "description": "Using supertest to make tests for some publicly available REST APIs",
     "main": "dist/index.js",
     "type": "module",
-    "bin": "./bin/run.sh",
+    "bin": "./dist/bin/run.sh",
     "scripts": {
-        "test": "NODE_OPTIONS='--experimental-vm-modules --no-warnings' npx jest --verbose",
+        "test": "./dist/bin/run.sh",
         "commit": "git add . ; git commit -a -m minor; git push"
     },
     "repository": {
