@@ -6,18 +6,18 @@ export function stdChecks(response) {
     expect(response.ok).toBe(true);
     expect(response.redirect).toBe(false);
 }
-export function checkArray(response) {
-    expect(Array.isArray(response.body)).toBe(true);
+export function checkArray(something) {
+    expect(Array.isArray(something)).toBe(true);
 }
 export function checkProps(response, props) {
-    if (Array.isArray(response.body)) {
+    if (Array.isArray(response)) {
         for (const prop of props) {
-            expect(response.body[0]).toHaveProperty(prop);
+            expect(response[0]).toHaveProperty(prop);
         }
     }
     else {
         for (const prop of props) {
-            expect(response.body).toHaveProperty(prop);
+            expect(response).toHaveProperty(prop);
         }
     }
 }

@@ -13,9 +13,15 @@
         "type": "git",
         "url": "git+https://github.com/ngmaibulat/funtest.git"
     },
-    "keywords": [],
+    "keywords": [
+        "REST API",
+        "API",
+        "Test",
+        "Jest",
+        "Supertest"
+    ],
     "author": "REST API Supertest",
-    "license": "ISC",
+    "license": "MIT",
     "bugs": {
         "url": "https://github.com/ngmaibulat/funtest/issues"
     },
