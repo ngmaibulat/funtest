@@ -1,5 +1,5 @@
 {
-    "name": "funtest",
+    "name": "@aibulat/funtest",
     "version": "0.0.1",
     "description": "Using supertest to make tests for some publicly available REST APIs",
     "main": "dist/index.js",

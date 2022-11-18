@@ -15,5 +15,5 @@
 ### Use
 
 ```sh
-npx funtest@latest
+npx @aibulat/funtest@latest
 ```
