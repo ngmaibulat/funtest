@@ -20,7 +20,7 @@ async function getUser(user: string) {
 }
 
 test(`connect ${url}`, async () => {
-    const path = `/`;
+    const path = "/";
     const useragent = "curl/7.79.1";
     const response = await req.get(path).set("User-Agent", useragent);
 
