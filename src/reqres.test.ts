@@ -20,3 +20,21 @@ test("get /api/users", async () => {
     checkArray(response.body.data);
     checkProps(response.body.data, Object.keys(samples.user));
 });
+
+test("get /api/users/1", async () => {
+    const path = "/api/users/1";
+    const response = await req.get(path);
+
+    stdChecks(response);
+    // checkArray(response.body.data);
+    checkProps(response.body.data, Object.keys(samples.user));
+});
+
+test("post /api/register", async () => {
+    const path = "/api/register";
+    const response = await req.post(path).send(samples.regdata);
+
+    stdChecks(response);
+    // checkArray(response.body.data);
+    checkProps(response.body, Object.keys(samples.token));
+});
