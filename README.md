@@ -12,6 +12,15 @@
 -   Can be used as sample code on how to write basic tests for REST API
 -   You can use it as a sort of traffic generator ))
 
+
+### Stack
+
+- Typescript
+- Jest
+- Supertest
+- ESBuild
+- ESM modules
+
 ### Use
 
 ```sh
